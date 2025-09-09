@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS application page</title>
+    <!--Method 1: External CSS Part 1-->
+    <link rel="stylesheet" href="main.css">
+</head>
+    <!--Method 2: Internal CSS Part 1-->
+<style>
+    .internal {
+        color: #038C7F;
+        background-color: #04BFAD;
+    }
+</style>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="css-application.html">Three Ways to Apply CSS</a></li>
+                <li><a href="built-in-elements.html">Styling Built-in-Elements</a></li>
+                <li><a href="classes-ids.html">Applying CSS to Classes & IDs</a></li>
+                <li><a href="conditional-css.html">Conditional CSS</a></li>
+                <h1>CSS Application</h1>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>External CSS</h2>
+            <!--Method 1: External CSS Part 1-->
+            <p class="internal">Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+        </section>
+        <section>
+            <h2>Internal CSS</h2>
+            <!--Method 2: Internal CSS Part 2-->
+            <p class="internal">Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+        </section>
+        <section>
+            <h2>Inline CSS</h2>
+            <!--Method 3: Inline CSS-->
+            <p style="color: #04BFAD;">Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Lani Productions <a href="https://github.com/" target="_blank">visit GitHub</a></p>
+    </footer>
+</body>
+</html>
